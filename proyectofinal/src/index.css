@@ -7,9 +7,18 @@ body {
   font-family: 'Inter', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #F1FAFB;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.text-gradient {
+  background-image: linear-gradient(45deg, #009A73,  #22A3DA);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  padding: 3px;
 }
