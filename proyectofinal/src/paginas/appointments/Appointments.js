@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react';
-import { Link } from "react-router-dom";
 import axios from 'axios';
 import { useAuth } from "../../context/AuthContext";
 import { useNavigate } from "react-router-dom";
@@ -80,15 +79,11 @@ function Appointments() {
         setDate(event.target.value);
     };
 
-    const handleHourChange = (event) => {
-        setHourSelected(event.target.value);
-    };
-
     const handleSelectHour = (hour) => {
         setHourSelected(hour)
     }
     return (
-      <div className='flex flex-col grow w-full gap-5 '>
+      <div className='flex flex-col grow w-full px-12 2xl:px-0 gap-5 '>
 
         {/* Agency an appointment */}
         {

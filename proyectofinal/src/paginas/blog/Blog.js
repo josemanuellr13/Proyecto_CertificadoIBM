@@ -39,7 +39,7 @@ function Blog() {
                     return (
                     <div className='flex flex-col bg-white shadow-md rounded-md overflow-hidden hover:ring-2 ring-blue-200'>
                         <img src={ assetPath + tip.image} className="h-40 object-cover"/>
-                        <div className='p-5 flex flex-col gap-2'>
+                        <div className='p-5 flex flex-col gap-2 '>
                             <p className='text-left font-semibold text-ppala'>{tip.title}</p>
                             <p className='text-left text-with-ellipsis-3 text-sm text-slate-600'>{tip.description}</p>
                             <p className='text-left mt-1'><button className='bg-verde hover:bg-verdehover p-3 y-4 border-sm text-sm text-white rounded-sm'>Read more</button></p>

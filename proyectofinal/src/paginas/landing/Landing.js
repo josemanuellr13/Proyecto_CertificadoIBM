@@ -5,12 +5,12 @@ function Landing() {
   const assetPath = '/assets/imgs/';
 
   return (
-    <div className='flex flex-row grow max-w-screen-2xl mx-auto'>
+    <div className='flex flex-row grow px-12 2xl:px-0  max-w-screen-2xl mx-auto'>
         <div className='w-1/2 flex flex-col flex-wrap justify-center gap-3 items-start'>
           <div>
-            <h1 className='text-ppala text-left text-4xl xl:text-6xl font-bold'>Your health.</h1>
+            <h1 className='text-ppala text-left text-5xl xl:text-6xl font-bold'>Your health.</h1>
               <div className='bg-[#D3F2EB]'>
-                <h1 className='text-gradient text-4xl xl:text-6xl font-extrabold bg-[#D3F2EB] '>Our responsability.</h1>
+                <h1 className='text-gradient text-5xl xl:text-6xl font-extrabold bg-[#D3F2EB] '>Our responsability.</h1>
               </div>
           </div>
             

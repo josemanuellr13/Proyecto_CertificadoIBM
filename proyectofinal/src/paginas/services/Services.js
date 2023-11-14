@@ -4,9 +4,9 @@ const assetPath = '/assets/imgs/';
 
 function Services() {
     return (
-      <div className='flex flex-col grow w-full max-w-screen-2xl mx-auto items-center justify-center gap-5'>
+      <div className='flex flex-col px-12 2xl:px-0 grow w-full max-w-screen-2xl mx-auto items-center justify-center gap-5'>
          <h2 className='text-6xl text-center font-bold mt-10 text-ppala'>Full range of <div className='bg-[#D3F2EB] '>
-                <h1 className='text-gradient text-4xl xl:text-6xl font-extrabold bg-[#D3F2EB] '>the better specialists</h1>
+                <h1 className='text-gradient text-6xl font-extrabold bg-[#D3F2EB] '>the better specialists</h1>
               </div>for private diagnostics </h2>
         
         <p className='text-[#597C87] mb-10'>Welcome to our Medical Services section, where your health is our priority.<br></br> Explore our range of specialized care to meet your unique healthcare needs.</p>
