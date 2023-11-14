@@ -11,6 +11,7 @@ import Blog from './paginas/blog/Blog'
 import Reports from './paginas/reports/Reports';
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Appointments from './paginas/appointments/Appointments';
+import InstantConsultation from './paginas/instantconsultation/InstantConsultation';
 import { AuthProvider } from "./context/AuthContext";
 import Loading from './componentes/loading/Loading'; 
 import { LoadingProvider} from "./context/LoadingContext";
@@ -39,6 +40,7 @@ function App() {
                   <Route path="appointments" element={<Appointments/>} />
                   <Route path="reports" element={<Reports/>} />
                   <Route path="selfcheckup" element={<Checkups/>} />
+                  <Route path="instantconsultation" element={<InstantConsultation/>} />
               </Routes>
           
         </main>
