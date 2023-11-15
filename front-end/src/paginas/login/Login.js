@@ -101,6 +101,9 @@ function Login() {
                 <button type='submit' className='bg-verde hover:bg-verdehover rounded-sm w-full py-3 text-white font-semibold text-sm'>
                     Login
                 </button>
+                <div className='bg-blue-50 border border-blue-200 rounded-sm p-2'>
+                  <p className='text-sm text-slate-600'>To check the app faster, you can use the user <br/> '<b>test@test.com</b>' with the password '<b>test</b>'</p>
+                </div>
            </form>
           </div>
       </div>
